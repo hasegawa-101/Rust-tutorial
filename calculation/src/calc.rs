@@ -1,5 +1,3 @@
-use std::ops::Add;
-
-pub fn calc<T: Add<Output=T>>(a: T, b: T) -> T {
-    a + b
+pub fn calc(a: i32, b: i32) -> i32 {
+    return a + b;
 }
